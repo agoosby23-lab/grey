@@ -134,3 +134,25 @@ button:active {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.highlight__wrapper {
+    display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.highlight__para {
+    text-align: center;
+}
+
+.highlight__img {
+    border: 2px solid #7342d6;
+    padding: 80px;
+}
