@@ -275,4 +275,10 @@ button:active {
      .nav__links {
         display: none ;
     }
+    .books {
+    flex-wrap: wrap;
+  }
+  .book {
+    width: 50%;
+  }
 }
