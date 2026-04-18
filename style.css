@@ -296,8 +296,13 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+}    
+
+.footer {
+    background-color:rgba(115, 66, 214, 0.1)
 }
 
-#explore {
-    background-color:rgba(115, 66, 214, 0.1);
+.no__cursor {
+    cursor: not-allowed;
 }
+
