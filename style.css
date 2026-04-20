@@ -238,7 +238,6 @@ button:active {
 
 #features {
     background-color: rgba(115, 66, 214, 0.1);
-    height: 1000px;
     padding-top: 8vw;
 }
 
@@ -360,7 +359,7 @@ footer {
     right: 0;
     bottom: 0;
     z-index: 100;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
