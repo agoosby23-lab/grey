@@ -21,22 +21,22 @@
             <li><a href="#" class="nav__link">Contact</a></li>
             <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
           </ul>
-        </div>
         <button class="btn__menu" onclick="openMenu()">
             <i class="fa-solid fa-bars"></i>
         </button>
         <div class="menu__backdrop">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                <i class="fa-solid fa-business-time"></i>
+                <i class="fa-solid fa-xmark"></i>
             </button>
             <ul class="menu__links">
-                <li class="menu__list"><a href="#" class="menu__link">Home</a>
+                <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a>
                 </li>
-                <li class="menu__list"><a href="#features" class="menu__link">Book</a>
+                <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Book</a>
                 </li>
-                <li class="menu__list"><a href="#" class="menu__link no-cursor">Contacts</a>
+                <li class="menu__list"><a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
                 </li>
             </ul>
+        </div>
         </div>
       </nav> 
       <header>
@@ -46,7 +46,9 @@
             <h2>
               Find your dream book with <span class="purple">library</span>
             </h2>
-            <button class="btn">Browse books</button>
+            <a href="#features">
+                <button class="btn">Browse books</button>
+            </a>
           </div>
           <figure class="header__img--wrapper">
             <img src="/assets/Undraw_Books.svg" alt="" />
