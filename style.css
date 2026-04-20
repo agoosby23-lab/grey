@@ -386,7 +386,7 @@ footer {
     align-items: center;
 }
 
-.menu--open,
+.menu--open
 .menu__backdrop {
   display: flex;
 }
